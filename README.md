@@ -65,7 +65,7 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/ginkgo" name="twrp/android_device_xiaomi_ginkgo" remote="github" revision="android-12.1" />
+<project path="device/xiaomi/ginkgo" name="jurbendroin/twrp_device_xiaomi_ginkgo" remote="github" revision="android-12.1" />
 ```
 
 Finally execute these:
@@ -86,3 +86,4 @@ fastboot boot out/target/product/ginkgo/recovery.img
 ## Thanks
 
 - Thanks to @PeterCxy for the commits and the base: https://github.com/PeterCxy/android_device_xiaomi_violet-twrp
+- Credit to https://github.com/TeamWin/android_device_xiaomi_ginkgo
